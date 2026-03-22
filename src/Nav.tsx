@@ -1,6 +1,4 @@
-"use client";
-
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { neutralLight, neutralDark, fontFamily } from "./styles";
 
 export default function Nav() {
@@ -22,7 +20,7 @@ export default function Nav() {
       }}
     >
       <Link
-        href="/"
+        to="/"
         style={{
           color: neutralLight,
           textDecoration: "none",
@@ -33,7 +31,7 @@ export default function Nav() {
         Design Consulting Club
       </Link>
       <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
-        <Link
+        <a
           href="/#contact"
           style={{
             color: neutralLight,
@@ -42,9 +40,9 @@ export default function Nav() {
           }}
         >
           Contact
-        </Link>
+        </a>
         <Link
-          href="/team"
+          to="/team"
           style={{
             color: neutralLight,
             textDecoration: "none",
@@ -54,7 +52,7 @@ export default function Nav() {
           Team
         </Link>
         <Link
-          href="/apply"
+          to="/apply"
           style={{
             color: neutralLight,
             textDecoration: "none",

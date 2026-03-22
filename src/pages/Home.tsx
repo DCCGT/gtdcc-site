@@ -4,7 +4,7 @@ import {
   accentColor,
   fontFamily,
   heroFontSize,
-} from "./styles";
+} from "../styles";
 
 export default function Home() {
   return (
