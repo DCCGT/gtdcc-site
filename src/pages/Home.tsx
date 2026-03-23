@@ -86,6 +86,7 @@ export default function Home() {
     <div style={{ margin: 0 }}>
       {/* ── Hero ── */}
       <section
+        className="hero"
         style={{
           backgroundColor: accentColor,
           color: neutralLight,
@@ -99,23 +100,13 @@ export default function Home() {
         }}
       >
         <div style={{ flex: 1 }}>
-          <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Design</h1>
-          <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Consulting</h1>
-          <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Club</h1>
-          <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>at Georgia Tech</h1>
-          <p
-            style={{
-              fontSize: "1rem",
-              marginTop: "2rem",
-              opacity: 0.7,
-              letterSpacing: "0.15em",
-              textTransform: "uppercase",
-            }}
-          >
-            Scroll to explore
-          </p>
+          <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Design</h1>
+          <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Consulting</h1>
+          <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>Club</h1>
+          <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>at Georgia Tech</h1>
         </div>
         <img
+          className="hero-img"
           src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&q=80"
           alt="Design workspace"
           style={{
@@ -130,6 +121,7 @@ export default function Home() {
 
       {/* ── About ── */}
       <section
+        className="about"
         style={{
           backgroundColor: neutralLight,
           color: neutralDark,
@@ -165,6 +157,7 @@ export default function Home() {
           </p>
         </div>
         <img
+          className="about-img"
           src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80"
           alt="Team collaboration"
           style={{
@@ -179,6 +172,7 @@ export default function Home() {
 
       {/* ── Values ── */}
       <section
+        className="section"
         style={{
           backgroundColor: neutralLight,
           color: neutralDark,
@@ -193,6 +187,7 @@ export default function Home() {
           Our Values
         </h2>
         <div
+          className="values-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
@@ -239,6 +234,7 @@ export default function Home() {
           Our Methodology
         </h2>
         <div
+          className="methodology-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(4, 1fr)",
@@ -279,6 +275,7 @@ export default function Home() {
 
       {/* ── Partner ── */}
       <section
+        className="section"
         style={{
           backgroundColor: neutralLight,
           color: neutralDark,
@@ -315,6 +312,7 @@ export default function Home() {
           talent, and our members gain real-world experience.
         </p>
         <div
+          className="partner-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
@@ -369,6 +367,7 @@ export default function Home() {
 
       {/* ── Contact ── */}
       <section
+        className="section"
         id="contact"
         style={{
           backgroundColor: neutralDark,

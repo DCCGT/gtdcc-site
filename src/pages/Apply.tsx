@@ -22,10 +22,10 @@ export default function Apply() {
           textAlign: "left",
         }}
       >
-        <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>
+        <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>
           Applications
         </h1>
-        <h1 style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>
+        <h1 className="hero-title" style={{ fontSize: heroFontSize, fontWeight: 900, margin: 0 }}>
           Now Open
         </h1>
         <a

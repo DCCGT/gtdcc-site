@@ -1,0 +1,70 @@
+/* ── Responsive overrides ── */
+
+@media (max-width: 768px) {
+  /* Hero */
+  .hero {
+    flex-direction: column !important;
+    padding: 6rem 2rem 3rem !important;
+    gap: 2rem !important;
+  }
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+  .hero-img {
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 8px !important;
+  }
+
+  /* About */
+  .about {
+    flex-direction: column !important;
+    padding: 3rem 2rem !important;
+    gap: 2rem !important;
+  }
+  .about-img {
+    width: 100% !important;
+    height: 220px !important;
+  }
+
+  /* Values cards */
+  .values-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Methodology steps */
+  .methodology-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Partner cards */
+  .partner-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  /* General section padding */
+  .section {
+    padding: 3rem 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem !important;
+  }
+  .hero {
+    padding: 5rem 1.25rem 2rem !important;
+  }
+  .about {
+    padding: 2.5rem 1.25rem !important;
+  }
+  .section {
+    padding: 2.5rem 1.25rem !important;
+  }
+  .methodology-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
