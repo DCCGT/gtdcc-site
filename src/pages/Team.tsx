@@ -1,80 +1,113 @@
-import {
-  neutralLight,
-  neutralDark,
-  fontFamily,
-} from "../styles";
+import { Footer } from "../components/Footer";
 
 const teamMembers = [
-  { title: "President", major: "Computer Science - '28" },
-  { title: "Internal VP", major: "Computer Science - '28" },
-  { title: "External VP", major: "Computer Science - '28" },
-  { title: "Marketing Director", major: "Computer Science - '28" },
-  { title: "Company Relations Director", major: "Computer Science - '28" },
-  { title: "Treasurer", major: "Computer Science - '28" },
-  { title: "Industrial Design Team Lead", major: "Computer Science - '28" },
-  { title: "Software Design Team Lead", major: "Computer Science - '28" },
+  {
+    name: "Alex Chen",
+    position: "President",
+    major: "Computer Science",
+    gradYear: "2026"
+  },
+  {
+    name: "Sarah Martinez",
+    position: "Internal VP",
+    major: "Business Administration",
+    gradYear: "2026"
+  },
+  {
+    name: "Jordan Taylor",
+    position: "External VP",
+    major: "Design",
+    gradYear: "2027"
+  },
+  {
+    name: "Maya Patel",
+    position: "Marketing Director",
+    major: "Communications",
+    gradYear: "2027"
+  },
+  {
+    name: "Chris Wong",
+    position: "Company Relations Director",
+    major: "Economics",
+    gradYear: "2026"
+  },
+  {
+    name: "Jamie Foster",
+    position: "Treasurer",
+    major: "Finance",
+    gradYear: "2027"
+  },
+  {
+    name: "Riley Anderson",
+    position: "Industrial Design Team Lead",
+    major: "Industrial Design",
+    gradYear: "2026"
+  },
+  {
+    name: "Sam Kim",
+    position: "Software Design Team Lead",
+    major: "Computer Science",
+    gradYear: "2027"
+  }
 ];
+
+const getAccentColor = (index: number) => {
+  const colors = ['#dccd2e', '#2e44de', '#dc442e'];
+  return colors[index % colors.length];
+};
 
 export default function Team() {
   return (
-    <div style={{ margin: 0 }}>
-      <section
-        style={{
-          backgroundColor: neutralDark,
-          color: neutralLight,
-          fontFamily,
-          padding: "6rem 2rem 4rem",
-          minHeight: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
-        <h2 style={{ fontSize: "2rem", marginBottom: "2rem" }}>Team</h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-            gap: "2rem",
-            maxWidth: "1000px",
-            width: "100%",
-          }}
-        >
-          {teamMembers.map((member) => (
-            <div
-              key={member.title}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                textAlign: "center",
-              }}
-            >
+    <div>
+      <div className="min-h-screen pt-24 pb-20 px-6" style={{ backgroundColor: '#ebebeb' }}>
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h1 className="text-5xl md:text-6xl mb-6" style={{ fontWeight: 700, color: '#141414' }}>
+              Meet Our Team
+            </h1>
+            <p className="text-xl max-w-3xl mx-auto" style={{ color: '#555555' }}>
+              The passionate leaders driving innovation and impact at the Design Consulting Club
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {teamMembers.map((member, index) => (
               <div
-                style={{
-                  width: "150px",
-                  height: "180px",
-                  backgroundColor: "#2a2a2a",
-                  borderRadius: "4px",
-                  marginBottom: "0.75rem",
-                }}
-              />
-              <span style={{ fontWeight: 700, fontSize: "1rem" }}>
-                {member.title}
-              </span>
-              <span
-                style={{
-                  fontSize: "0.875rem",
-                  color: "#999",
-                  marginTop: "0.25rem",
-                }}
+                key={index}
+                className="bg-white rounded-lg overflow-hidden hover:scale-105"
+                style={{ boxShadow: '0 4px 12px rgba(20, 20, 20, 0.08)', transition: 'transform 0.2s' }}
               >
-                {member.major}
-              </span>
-            </div>
-          ))}
+                <div
+                  className="w-full h-80 flex items-center justify-center"
+                  style={{ backgroundColor: '#f5f5f5' }}
+                >
+                  <div
+                    className="w-24 h-24 rounded-full"
+                    style={{ backgroundColor: getAccentColor(index), opacity: 0.3 }}
+                  />
+                </div>
+
+                <div className="p-6">
+                  <div
+                    className="w-12 h-1 mb-4 rounded"
+                    style={{ backgroundColor: getAccentColor(index) }}
+                  />
+                  <h3 className="text-xl mb-2" style={{ fontWeight: 600, color: '#141414' }}>
+                    {member.name}
+                  </h3>
+                  <p className="mb-3" style={{ fontWeight: 600, color: getAccentColor(index) }}>
+                    {member.position}
+                  </p>
+                  <p style={{ color: '#555555' }}>
+                    {member.major} • '{member.gradYear.slice(-2)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </section>
+      </div>
+      <Footer />
     </div>
   );
 }
