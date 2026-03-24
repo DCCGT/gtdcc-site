@@ -2,52 +2,52 @@ import { Footer } from "../components/Footer";
 
 const teamMembers = [
   {
-    name: "Alex Chen",
+    name: "Jacob Ma",
     position: "President",
-    major: "Computer Science",
-    gradYear: "2026"
+    major: "Computer Engineering",
+    gradYear: "2027"
   },
   {
-    name: "Sarah Martinez",
+    name: "Aiden Dowling",
     position: "Internal VP",
-    major: "Business Administration",
-    gradYear: "2026"
+    major: "Computer Engineering",
+    gradYear: "2027"
   },
   {
-    name: "Jordan Taylor",
+    name: "TBA",
     position: "External VP",
-    major: "Design",
-    gradYear: "2027"
+    major: "TBA",
+    gradYear: "20XX"
   },
   {
-    name: "Maya Patel",
+    name: "TBA",
     position: "Marketing Director",
-    major: "Communications",
-    gradYear: "2027"
+    major: "TBA",
+    gradYear: "20XX"
   },
   {
-    name: "Chris Wong",
+    name: "TBA",
     position: "Company Relations Director",
-    major: "Economics",
-    gradYear: "2026"
+    major: "TBA",
+    gradYear: "20XX"
   },
   {
-    name: "Jamie Foster",
+    name: "TBA",
     position: "Treasurer",
-    major: "Finance",
-    gradYear: "2027"
+    major: "TBA",
+    gradYear: "20XX"
   },
   {
-    name: "Riley Anderson",
+    name: "TBA",
     position: "Industrial Design Team Lead",
-    major: "Industrial Design",
-    gradYear: "2026"
+    major: "TBA",
+    gradYear: "20XX"
   },
   {
-    name: "Sam Kim",
+    name: "TBA",
     position: "Software Design Team Lead",
-    major: "Computer Science",
-    gradYear: "2027"
+    major: "TBA",
+    gradYear: "20XX"
   }
 ];
 
