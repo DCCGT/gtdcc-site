@@ -33,7 +33,7 @@ export function Contact() {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/gt.dcc?igsh=MTZ6YTFkdzF5cDRubg%3D%3D&utm_source=qr"
+              href="https://www.instagram.com/gt.dcc"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 rounded-full flex items-center justify-center hover:opacity-90"
