@@ -45,7 +45,7 @@ export default function Nav() {
           aria-label="DCC Home"
         >
           <img
-            src="/dcc-logo.png"
+            src="/dcc-logo-rgb.png"
             alt="Design Consulting Club"
             className="h-10"
           />
