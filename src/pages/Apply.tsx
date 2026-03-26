@@ -54,7 +54,7 @@ export default function Apply() {
               Ready to Make an Impact?
             </h2>
             <p className="text-xl mb-12 max-w-2xl mx-auto" style={{ color: '#555555' }}>
-              Complete our application form to join the Design Consulting Club executive board and start creating meaningful change.
+              Complete our application form to join the Design Consulting Club and start creating meaningful change.
             </p>
 
             <a
