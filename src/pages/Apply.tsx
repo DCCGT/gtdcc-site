@@ -124,7 +124,7 @@ export default function Apply() {
           </div>
 
           {/* Application Form */}
-          <form action="https://formsubmit.co/c37eaf1e1a64041551f6016a6afbab1e" method="POST" className="space-y-8">
+          <form action="https://formsubmit.co/jacobdma218@gmail.com" method="POST" className="space-y-8">
             <input type="hidden" name="_subject" value="[Application]" ref={subjectRef} />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="box" />
