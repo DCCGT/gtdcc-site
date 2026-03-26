@@ -146,7 +146,7 @@ export default function Apply() {
                 required
                 onChange={handleNameChange}
                 className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none"
-                style={{ backgroundColor: '#ffffff', borderColor: '#dc442e', color: '#141414' }}
+                style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                 placeholder="Your full name"
               />
             </div>
@@ -166,7 +166,7 @@ export default function Apply() {
                 name="email"
                 required
                 className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none"
-                style={{ backgroundColor: '#ffffff', borderColor: '#dc442e', color: '#141414' }}
+                style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                 placeholder="Your email address"
               />
             </div>
@@ -185,7 +185,7 @@ export default function Apply() {
                 name="year"
                 required
                 className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none"
-                style={{ backgroundColor: '#ffffff', borderColor: '#2e44de', color: '#141414' }}
+                style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                 defaultValue=""
               >
                 <option value="" disabled>Select your year</option>
@@ -213,7 +213,7 @@ export default function Apply() {
                 name="major"
                 required
                 className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none"
-                style={{ backgroundColor: '#ffffff', borderColor: '#2e44de', color: '#141414' }}
+                style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                 placeholder="Your major"
               />
             </div>
@@ -231,7 +231,7 @@ export default function Apply() {
                   className="flex-1 px-6 py-4 rounded-lg border-2 text-center cursor-pointer transition-all"
                   style={{
                     backgroundColor: membershipType === 'General Body' ? '#dccd2e' : '#ffffff',
-                    borderColor: '#dccd2e',
+                    borderColor: '#d1d1d1',
                     color: '#141414',
                     fontWeight: membershipType === 'General Body' ? 600 : 400
                   }}
@@ -250,7 +250,7 @@ export default function Apply() {
                   className="flex-1 px-6 py-4 rounded-lg border-2 text-center cursor-pointer transition-all"
                   style={{
                     backgroundColor: membershipType === 'Executive Board' ? '#dccd2e' : '#ffffff',
-                    borderColor: '#dccd2e',
+                    borderColor: '#d1d1d1',
                     color: '#141414',
                     fontWeight: membershipType === 'Executive Board' ? 600 : 400
                   }}
@@ -282,7 +282,7 @@ export default function Apply() {
                   name="position"
                   required
                   className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none"
-                  style={{ backgroundColor: '#ffffff', borderColor: '#dccd2e', color: '#141414' }}
+                  style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                   defaultValue=""
                 >
                   <option value="" disabled>Select a position</option>
@@ -311,7 +311,7 @@ export default function Apply() {
                 rows={6}
                 required
                 className="w-full px-6 py-4 rounded-lg border-2 transition-all focus:outline-none resize-none"
-                style={{ backgroundColor: '#ffffff', borderColor: '#dc442e', color: '#141414' }}
+                style={{ backgroundColor: '#ffffff', borderColor: '#d1d1d1', color: '#141414' }}
                 placeholder="Tell us about your relevant experience, skills, and what you'd bring to the team..."
               />
             </div>
