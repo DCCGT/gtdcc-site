@@ -2,7 +2,6 @@ import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Values } from "../components/Values";
 import { Partner } from "../components/Partner";
-import { Opportunities } from "../components/Opportunities";
 import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 
@@ -13,7 +12,6 @@ export default function Home() {
       <About />
       <Values />
       <Partner />
-      <Opportunities />
       <Contact />
       <Footer />
     </div>

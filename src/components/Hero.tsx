@@ -6,7 +6,7 @@ export function Hero() {
           Design Consulting Club
         </h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto" style={{ color: '#555555' }}>
-          Bridging innovation and strategy through thoughtful design
+          Design experience for students. Design access for organizations.
         </p>
       </div>
     </section>

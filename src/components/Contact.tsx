@@ -11,7 +11,7 @@ export function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a
-            href="mailto:hello@gtdcc.org"
+            href="mailto:contact@gtdcc.org"
             className="px-10 py-5 rounded-lg hover:opacity-90 text-lg"
             style={{ backgroundColor: '#141414', color: '#ebebeb', fontWeight: 600, transition: 'opacity 0.2s' }}
           >

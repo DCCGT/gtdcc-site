@@ -10,7 +10,7 @@ export function Footer() {
               Design Consulting Club
             </h3>
             <p style={{ color: '#a3a3a3' }}>
-              Empowering students to create meaningful impact through design thinking and innovation.
+              Design experience for students. Design access for organizations.
             </p>
           </div>
           <div>
@@ -51,20 +51,18 @@ export function Footer() {
           </div>
           <div>
             <h3 className="mb-4" style={{ fontWeight: 600, color: '#ebebeb' }}>
-              Opportunities
+              Get Involved
             </h3>
             <ul className="space-y-2">
-              {['Startups', 'Speakers', 'Sponsors'].map((item) => (
-                <li key={item}>
-                  <a
-                    href={`/#${item.toLowerCase()}`}
-                    className="hover:opacity-100"
-                    style={{ color: '#a3a3a3', transition: 'opacity 0.2s' }}
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <Link
+                  to="/inquiry"
+                  className="hover:opacity-100"
+                  style={{ color: '#a3a3a3', transition: 'opacity 0.2s' }}
+                >
+                  Inquiry Form
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

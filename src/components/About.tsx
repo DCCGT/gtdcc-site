@@ -7,16 +7,14 @@ export function About() {
         </h2>
         <div className="space-y-6">
           <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#444444' }}>
-            The Design Consulting Club is a student-led organization dedicated to helping businesses,
-            startups, and organizations solve complex challenges through human-centered design. We bring
-            together passionate students from diverse backgrounds to deliver innovative solutions that
-            create real impact.
+            The Design Consulting Club is a student-led organization that takes on design projects for
+            businesses, startups, and organizations. Our design teams specialize in either industrial and product 
+            design or software design, including graphic design and UI/UX.
           </p>
           <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#444444' }}>
-            Our team combines design thinking, strategic consulting, and technical expertise to tackle
-            problems ranging from product development to organizational transformation. We believe that
-            great design is not just about aesthetics—it's about creating meaningful experiences that
-            drive results.
+            We work with clients across different types of projects to deliver high-quality products. We
+            enable students to gain design experience by doing real work, and in doing so, we make quality
+            design more accessible.
           </p>
         </div>
       </div>

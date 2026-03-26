@@ -2,17 +2,17 @@ export function Values() {
   const values = [
     {
       title: "Human-Centered",
-      description: "We place people at the heart of everything we do, creating solutions that genuinely meet user needs and improve lives.",
+      description: "We place people at the heart of everything we do, designing products with the user in mind.",
       color: "#dc442e"
     },
     {
       title: "Collaborative",
-      description: "Great ideas emerge from diverse perspectives. We foster an environment where every voice is heard and valued.",
+      description: "We recognize that different backgrounds and experiences create better ideas and results that work for everyone.",
       color: "#2e44de"
     },
     {
-      title: "Impact-Driven",
-      description: "We measure our success by the tangible difference we make for our partners and the communities they serve.",
+      title: "Accessible",
+      description: "Great design shouldn't be gatekept. We believe quality should be available to everyone.",
       color: "#dccd2e"
     }
   ];
