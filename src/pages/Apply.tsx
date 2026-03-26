@@ -64,12 +64,12 @@ export default function Apply() {
               className="inline-block px-12 py-5 rounded-lg hover:opacity-90 text-xl"
               style={{ backgroundColor: '#141414', color: '#ebebeb', fontWeight: 600, transition: 'opacity 0.2s' }}
             >
-              Fill Out Application Form
+              Apply Now
             </a>
           </div>
 
           <p className="text-center mt-8" style={{ color: '#555555' }}>
-            Questions? Email us at <a href="mailto:president.gtdcc@gmail.com" style={{ color: '#2e44de', fontWeight: 600 }}>president.gtdcc@gmail.com</a>
+            Questions? Email us at <a href="mailto:contact@gtdcc.org" style={{ color: '#2e44de', fontWeight: 600 }}>contact@gtdcc.org</a>
           </p>
         </div>
       </div>
