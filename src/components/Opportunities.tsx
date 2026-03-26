@@ -8,7 +8,7 @@ export function Opportunities() {
             <div>
               <div
                 className="inline-block px-4 py-2 rounded-full mb-4"
-                style={{ backgroundColor: '#dccd2e', color: '#141414', fontWeight: 600 }}
+                style={{ backgroundColor: '#dc442e', color: '#ebebeb', fontWeight: 600 }}
               >
                 For Startups
               </div>
@@ -30,7 +30,7 @@ export function Opportunities() {
                   <li key={i} className="flex items-start gap-3">
                     <div
                       className="w-2 h-2 rounded-full mt-2 shrink-0"
-                      style={{ backgroundColor: '#dccd2e' }}
+                      style={{ backgroundColor: '#dc442e' }}
                     />
                     <span style={{ color: '#444444' }}>{item}</span>
                   </li>
@@ -39,7 +39,7 @@ export function Opportunities() {
             </div>
             <div
               className="h-96 rounded-lg"
-              style={{ backgroundColor: '#dccd2e', opacity: 0.2 }}
+              style={{ backgroundColor: '#dc442e', opacity: 0.2 }}
             />
           </div>
         </div>
@@ -92,7 +92,7 @@ export function Opportunities() {
             <div>
               <div
                 className="inline-block px-4 py-2 rounded-full mb-4"
-                style={{ backgroundColor: '#dc442e', color: '#ebebeb', fontWeight: 600 }}
+                style={{ backgroundColor: '#dccd2e', color: '#141414', fontWeight: 600 }}
               >
                 For Sponsors
               </div>
@@ -114,7 +114,7 @@ export function Opportunities() {
                   <li key={i} className="flex items-start gap-3">
                     <div
                       className="w-2 h-2 rounded-full mt-2 shrink-0"
-                      style={{ backgroundColor: '#dc442e' }}
+                      style={{ backgroundColor: '#dccd2e' }}
                     />
                     <span style={{ color: '#444444' }}>{item}</span>
                   </li>
@@ -123,7 +123,7 @@ export function Opportunities() {
             </div>
             <div
               className="h-96 rounded-lg"
-              style={{ backgroundColor: '#dc442e', opacity: 0.2 }}
+              style={{ backgroundColor: '#dccd2e', opacity: 0.2 }}
             />
           </div>
         </div>

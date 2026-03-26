@@ -16,9 +16,9 @@
   --text-on-dark-muted: #a3a3a3; /* 7.5:1 on #141414 */
 
   /* Accent colors */
-  --accent-yellow: #dccd2e;
-  --accent-blue: #2e44de;
   --accent-red: #dc442e;
+  --accent-blue: #2e44de;
+  --accent-yellow: #dccd2e;
 
   /* Surfaces */
   --surface-light: #ebebeb;

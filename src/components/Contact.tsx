@@ -23,7 +23,7 @@ export function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 rounded-full flex items-center justify-center hover:opacity-90"
-              style={{ backgroundColor: '#dccd2e', transition: 'opacity 0.2s' }}
+              style={{ backgroundColor: '#dc442e', transition: 'opacity 0.2s' }}
               aria-label="LinkedIn"
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

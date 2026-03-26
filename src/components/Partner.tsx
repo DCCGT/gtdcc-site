@@ -14,7 +14,7 @@ export function Partner() {
           <a
             href="#startups"
             className="px-8 py-4 rounded-lg hover:opacity-90"
-            style={{ backgroundColor: '#dccd2e', color: '#141414', fontWeight: 600, transition: 'opacity 0.2s' }}
+            style={{ backgroundColor: '#dc442e', color: '#ebebeb', fontWeight: 600, transition: 'opacity 0.2s' }}
           >
             For Startups
           </a>
@@ -28,7 +28,7 @@ export function Partner() {
           <a
             href="#sponsors"
             className="px-8 py-4 rounded-lg hover:opacity-90"
-            style={{ backgroundColor: '#dc442e', color: '#ebebeb', fontWeight: 600, transition: 'opacity 0.2s' }}
+            style={{ backgroundColor: '#dccd2e', color: '#141414', fontWeight: 600, transition: 'opacity 0.2s' }}
           >
             For Sponsors
           </a>

@@ -52,7 +52,7 @@ const teamMembers = [
 ];
 
 const getAccentColor = (index: number) => {
-  const colors = ['#dccd2e', '#2e44de', '#dc442e'];
+  const colors = ['#dc442e', '#2e44de', '#dccd2e'];
   return colors[index % colors.length];
 };
 

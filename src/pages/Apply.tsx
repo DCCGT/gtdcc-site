@@ -20,7 +20,7 @@ export default function Apply() {
           {/* Why Join Section */}
           <div className="grid md:grid-cols-3 gap-6 mb-16">
             <div className="bg-white p-6 rounded-lg" style={{ boxShadow: '0 4px 12px rgba(20, 20, 20, 0.08)' }}>
-              <div className="w-12 h-1 mb-4 rounded" style={{ backgroundColor: '#dccd2e' }} />
+              <div className="w-12 h-1 mb-4 rounded" style={{ backgroundColor: '#dc442e' }} />
               <h3 className="text-xl mb-3" style={{ fontWeight: 600, color: '#141414' }}>
                 Real Experience
               </h3>
@@ -38,7 +38,7 @@ export default function Apply() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg" style={{ boxShadow: '0 4px 12px rgba(20, 20, 20, 0.08)' }}>
-              <div className="w-12 h-1 mb-4 rounded" style={{ backgroundColor: '#dc442e' }} />
+              <div className="w-12 h-1 mb-4 rounded" style={{ backgroundColor: '#dccd2e' }} />
               <h3 className="text-xl mb-3" style={{ fontWeight: 600, color: '#141414' }}>
                 Build Community
               </h3>

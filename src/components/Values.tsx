@@ -3,7 +3,7 @@ export function Values() {
     {
       title: "Human-Centered",
       description: "We place people at the heart of everything we do, creating solutions that genuinely meet user needs and improve lives.",
-      color: "#dccd2e"
+      color: "#dc442e"
     },
     {
       title: "Collaborative",
@@ -13,7 +13,7 @@ export function Values() {
     {
       title: "Impact-Driven",
       description: "We measure our success by the tangible difference we make for our partners and the communities they serve.",
-      color: "#dc442e"
+      color: "#dccd2e"
     }
   ];
 
