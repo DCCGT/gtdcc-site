@@ -20,16 +20,16 @@ const teamMembers = [
     gradYear: "20XX"
   },
   {
-    name: "TBA",
+    name: "Charlotte O'Connor",
     position: "Marketing Director",
-    major: "TBA",
-    gradYear: "20XX"
+    major: "Computer Science",
+    gradYear: "2027"
   },
   {
-    name: "TBA",
+    name: "Summer Fan",
     position: "Company Relations Director",
-    major: "TBA",
-    gradYear: "20XX"
+    major: "Industrial Design",
+    gradYear: "2029"
   },
   {
     name: "TBA",
@@ -38,16 +38,22 @@ const teamMembers = [
     gradYear: "20XX"
   },
   {
-    name: "TBA",
+    name: "Heidi Huang",
     position: "Industrial Design Team Lead",
-    major: "TBA",
-    gradYear: "20XX"
+    major: "Industrial Design",
+    gradYear: "2029"
   },
   {
-    name: "TBA",
+    name: "Tessa Lee",
     position: "Software Design Team Lead",
-    major: "TBA",
-    gradYear: "20XX"
+    major: "Computational Media",
+    gradYear: "2029"
+  },
+  {
+    name: "Arnav Shah",
+    position: "Tech Team Lead",
+    major: "Computer Science",
+    gradYear: "2027"
   }
 ];
 
@@ -70,7 +76,7 @@ export default function Team() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
