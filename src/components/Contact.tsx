@@ -37,13 +37,25 @@ export function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 rounded-full flex items-center justify-center hover:opacity-90"
-              style={{ backgroundColor: '#2e44de', transition: 'opacity 0.2s' }}
+              style={{ backgroundColor: '#2e44dc', transition: 'opacity 0.2s' }}
               aria-label="Instagram"
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="2" width="20" height="20" rx="5" stroke="#ebebeb" strokeWidth="2"/>
                 <circle cx="12" cy="12" r="4" stroke="#ebebeb" strokeWidth="2"/>
                 <circle cx="18" cy="6" r="1" fill="#ebebeb"/>
+              </svg>
+            </a>
+            <a
+              href="https://discord.gg/6gjvFRhS5K"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-14 h-14 rounded-full flex items-center justify-center hover:opacity-90"
+              style={{ backgroundColor: '#dccd2e', transition: 'opacity 0.2s' }}
+              aria-label="Discord"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.54 5.34A16.1 16.1 0 0 0 15.61 4.1a.06.06 0 0 0-.06.03c-.17.3-.36.7-.49 1.01a14.9 14.9 0 0 0-4.12 0 9.5 9.5 0 0 0-.5-1.01.06.06 0 0 0-.06-.03 16.05 16.05 0 0 0-3.93 1.24.06.06 0 0 0-.03.02C3.9 9.1 3.2 12.74 3.54 16.33a.07.07 0 0 0 .03.05 16.2 16.2 0 0 0 4.83 2.42.06.06 0 0 0 .07-.02c.37-.5.7-1.04.98-1.6a.06.06 0 0 0-.03-.08 10.7 10.7 0 0 1-1.52-.72.06.06 0 0 1 0-.1l.3-.23a.06.06 0 0 1 .06 0 11.55 11.55 0 0 0 9.84 0 .06.06 0 0 1 .06 0l.3.23a.06.06 0 0 1 0 .1c-.48.28-.99.52-1.52.72a.06.06 0 0 0-.03.08c.29.56.62 1.1.98 1.6a.06.06 0 0 0 .07.02 16.15 16.15 0 0 0 4.84-2.42.06.06 0 0 0 .02-.05c.4-4.15-.68-7.76-2.86-10.97a.05.05 0 0 0-.02-.02ZM9.68 14.15c-.96 0-1.74-.87-1.74-1.94s.77-1.95 1.74-1.95c.98 0 1.76.88 1.74 1.95 0 1.07-.77 1.94-1.74 1.94Zm6.45 0c-.95 0-1.73-.87-1.73-1.94s.76-1.95 1.73-1.95c.98 0 1.76.88 1.74 1.95 0 1.07-.76 1.94-1.74 1.94Z" fill="#141414"/>
               </svg>
             </a>
           </div>
