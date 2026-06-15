@@ -1,6 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+const APPLICATION_FORM_URL = "https://forms.gle/eNRqDHHhhWy6eNi27";
+
 export default function Nav() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -155,8 +157,8 @@ function NavLinks({
       >
         Team
       </Link>
-      <Link
-        to="/apply"
+      <a
+        href={APPLICATION_FORM_URL}
         className="px-6 py-2 rounded-lg hover:opacity-90"
         style={{
           backgroundColor: '#141414',
@@ -166,7 +168,7 @@ function NavLinks({
         }}
       >
         Apply
-      </Link>
+      </a>
     </>
   );
 }

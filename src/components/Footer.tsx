@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+const APPLICATION_FORM_URL = "https://forms.gle/eNRqDHHhhWy6eNi27";
+
 export function Footer() {
   return (
     <footer className="px-6 py-12" style={{ backgroundColor: '#141414', color: '#ebebeb' }}>
@@ -39,13 +41,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/apply"
+                <a
+                  href={APPLICATION_FORM_URL}
                   className="hover:opacity-100"
                   style={{ color: '#a3a3a3', transition: 'opacity 0.2s' }}
                 >
                   Apply
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
