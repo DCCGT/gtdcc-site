@@ -4,7 +4,7 @@ export function Hero() {
   const typedWord = useTypingWord("lub");
 
   return (
-    <section className="relative isolate min-h-screen flex items-center justify-center overflow-hidden px-6 py-20">
+    <section className="relative isolate min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 py-20">
       <div aria-hidden="true" className="absolute inset-0">
         <div
           className="absolute inset-0 opacity-35"
@@ -18,7 +18,7 @@ export function Hero() {
 
       <div className="relative max-w-6xl mx-auto text-center">
         <h1
-          className="relative mb-6 flex flex-col items-center justify-center gap-y-2 px-2 sm:px-4 md:flex-row md:items-end md:gap-x-5 md:gap-y-0 md:px-10 text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-none"
+          className="relative mb-6 flex flex-col items-center justify-center gap-y-2 md:flex-row md:items-end md:gap-x-5 md:gap-y-0 md:px-10 text-[clamp(2.75rem,14vw,4.5rem)] md:text-7xl lg:text-8xl leading-none"
           style={{ fontWeight: 700 }}
         >
           <span style={{ color: '#dc442e', fontFamily: 'Georgia, serif' }}>Design</span>
@@ -51,7 +51,7 @@ export function Hero() {
           </span>
         </h1>
 
-        <p className="text-xl md:text-2xl max-w-[15ch] sm:max-w-[18ch] md:max-w-3xl mx-auto" style={{ color: '#555555' }}>
+        <p className="text-2xl max-w-[20ch] sm:max-w-[24ch] md:max-w-3xl mx-auto" style={{ color: '#555555' }}>
           Design experience for students. Design access for organizations.
         </p>
       </div>
