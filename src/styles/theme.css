@@ -84,4 +84,11 @@
   .skip-to-content:focus {
     top: 16px;
   }
+
+  @keyframes typewriter-caret {
+    50% {
+      opacity: 0;
+    }
+  }
+
 }
