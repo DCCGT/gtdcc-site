@@ -14,42 +14,6 @@ export function Hero() {
             backgroundSize: '28px 28px',
           }}
         />
-        <svg className="absolute left-[6%] top-[12%] h-5 w-5 text-[#dc442e] md:h-7 md:w-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[14%] top-[30%] h-4 w-4 text-[#2e44de] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute right-[8%] top-[10%] h-4 w-4 text-[#dccd2e] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute right-[16%] top-[38%] h-5 w-5 text-[#dc442e] md:h-7 md:w-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[52%] top-[8%] h-3.5 w-3.5 -translate-x-1/2 text-[#2e44de] md:h-5 md:w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[48%] bottom-[10%] h-3.5 w-3.5 -translate-x-1/2 text-[#dccd2e] md:h-5 md:w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[30%] bottom-[26%] h-4 w-4 text-[#dc442e] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute right-[28%] bottom-[18%] h-4 w-4 text-[#2e44de] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[2%] top-[42%] h-3.5 w-3.5 text-[#dccd2e] md:h-5 md:w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute left-[4%] bottom-[8%] h-4 w-4 text-[#2e44de] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute right-[3%] top-[52%] h-4 w-4 text-[#dc442e] md:h-6 md:w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
-        <svg className="absolute right-[5%] bottom-[6%] h-3.5 w-3.5 text-[#dccd2e] md:h-5 md:w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 0l2.47 7.53L22 10l-7.53 2.47L12 20l-2.47-7.53L2 10l7.53-2.47L12 0Z" />
-        </svg>
       </div>
 
       <div className="relative max-w-6xl mx-auto text-center">
